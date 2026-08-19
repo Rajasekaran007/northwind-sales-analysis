@@ -19,9 +19,7 @@ questions about revenue performance and data quality.
 - **Data quality issue found:** 335 orders (~2% of the 16,282 total) had missing
   country data, traced to 2 customer records with blank `Country` fields.
   Recommended making `Country` a mandatory field at data entry.
-- **Seasonal pattern identified:** February consistently generates the lowest
-  average monthly revenue (~$2.92M), while December generates the highest
-  (~$3.58M) — a gap of roughly 18%, consistent across an 11-year period
+- **Seasonal pattern identified:** February consistently generates the lowest average monthly revenue (approximately $2.92M), while December generates the highest (approximately $3.58M) — a gap of roughly 18%, consistent across an 11-year period
   (2012–2023). This suggests reduced order volume following the holiday season.
 - SQL and Python (Pandas) analyses were cross-validated and produced identical
   revenue figures, confirming consistency across tools.
