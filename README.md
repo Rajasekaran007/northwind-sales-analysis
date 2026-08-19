@@ -7,7 +7,7 @@ questions about revenue performance and data quality.
 ## Business Questions Answered
 1. Which products generate the most revenue?
 2. Which countries drive the most revenue?
-3. *(Python, in progress)* — How does revenue trend over time?
+3. How does revenue trend over time, and is there seasonality?
 4. *(Dashboard, in progress)* — What does a stakeholder-facing summary look like?
 
 ## Key Findings
