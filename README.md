@@ -23,7 +23,16 @@ questions about revenue performance and data quality.
   (2012–2023). This suggests reduced order volume following the holiday season.
 - SQL and Python (Pandas) analyses were cross-validated and produced identical
   revenue figures, confirming consistency across tools.
-  ## Dashboard
+ 
+
+## Tools Used
+- **SQL (SQLite)** — joins across `Orders`, `Customers`, `Products`, and
+  `Order Details`; aggregation and data quality investigation
+- **Python (Pandas)** — reproduced SQL findings; added time-series and seasonal
+  analysis
+   **Tableau Public** — interactive dashboard combining all findings into a
+  single stakeholder-facing view
+   ## Dashboard
 An interactive dashboard summarizing all findings is published on Tableau Public:
 [View Dashboard](https://public.tableau.com/app/profile/rajasekaran.gajendran/viz/NorthwindSalesAnalysis_17871990759230/Dashboard1)
 
@@ -32,13 +41,6 @@ The dashboard includes:
 - Top 10 countries by revenue
 - Monthly revenue trend (2012–2023)
 - Seasonal revenue pattern by calendar month
-
-## Tools Used
-- **SQL (SQLite)** — joins across `Orders`, `Customers`, `Products`, and
-  `Order Details`; aggregation and data quality investigation
-- **Python (Pandas)** — reproduced SQL findings; added time-series and seasonal
-  analysis
-- **Power BI / Excel** — *(coming next)*
 
 ## Project Structure
 ```
