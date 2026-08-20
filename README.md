@@ -30,7 +30,7 @@ questions about revenue performance and data quality.
   `Order Details`; aggregation and data quality investigation
 - **Python (Pandas)** — reproduced SQL findings; added time-series and seasonal
   analysis
-   **Tableau Public** — interactive dashboard combining all findings into a
+- **Tableau Public** — interactive dashboard combining all findings into a
   single stakeholder-facing view
    ## Dashboard
 An interactive dashboard summarizing all findings is published on Tableau Public:
